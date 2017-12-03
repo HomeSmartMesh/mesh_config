@@ -8,7 +8,7 @@
         "logfile":"/home/pi/share/logDays.txt",
         "help":"'level_out' is for console mode, and the 'level_file' is for the file record",
         "level_out":"4",
-        "level_file":"2",
+        "level_file":"3",
         "levels":{
             "0":"None",
             "1":"Error",
@@ -20,16 +20,16 @@
     "mqtt_client":{
         "host":"10.0.0.12",
         "port":1883,
-        "disable":true
+        "disable":false
     },
     "database":{
         "path":"/home/pi/share/",
         "loadpaths":"/home/pi/share/2017/",
-        "disable":true
+        "disable":false
     },
     "webserver":{
         "websocket_url":"ws://10.0.0.12:4348/measures",
-        "disable":true
+        "disable":false
     },
     "webclient":{
         "http_post":"ws://10.0.0.2:8127/rf_logger",

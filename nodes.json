@@ -25,6 +25,15 @@
                 "data"          : ["presence"],
                 "devices"       :["Magnet"]
             },
+    "15":   {   "name"          :"UpstairsOffice_Tag",
+                "function"      :"beacon",
+                "board"         :"STM8L_v2",
+                "program"       :"pr03_PressHumTemp",
+                "commit"        :"f73aefd25f12840d60c15f40bae60de3b689dd99",
+                "location"      :"Office Upstairs, work table",
+                "data"          : ["presence"],
+                "devices"       :["Magnet"]
+            },
     "16":   {   "name"          :"Balcony_Tag",
                 "location"      :"Balcony, next to the balcony door, down on the floor",
                 "coordinates"   :{ "x":"0","y":"0","z":"0"},
@@ -44,10 +53,11 @@
                 "uc_uid"        :"?",
                 "devices"       :["nRF24_pa_lna"]
             },
-    "23":   {   "name"          :"Test_Light_Dongle",
+    "23":   {   "name"          :"sleeping_bridge",
                 "board"         :"STM32_Dongle",
-                "function"      :"gateway",
-                "program"       :"rf_uart_interface",
+                "function"      :"bridge",
+                "location"      :"sleeping room entrance socket",
+                "program"       :"rf_bridge",
                 "devices"       :["APDS9960","nRF24"],
                 "uc_uid"        :"0x57 FF 6A 06 49 84 52 50 40 57 06 87"
             },
@@ -64,8 +74,9 @@
                 "commit"        :"?",
                 "uc_uid"        :"0x48 FF 76 06 51 87 50 49 21 10 12 87"
             },
-    "26":   {   "name"          :"Test_Mesh2.0_Tag",
+    "26":   {   "name"          :"Bedroom_Tag",
                 "function"      :"sensors",
+                "location"       :"Bedroom comode",
                 "board"         :"STM8L_v2",
                 "program"       :"pr03_PressHumTemp",
                 "commit"        :"f73aefd25f12840d60c15f40bae60de3b689dd99"
@@ -78,14 +89,15 @@
                 "devices"       :["nRF24_pa_lna"],
                 "uc_uid"        :"0x39 00 68 06 31 42 30 38 53 35 03 43"
             },
-    "28":   {   "name"          :"Test_1_Dongle",
-        "function"      :"",
+    "28":   {   "name"          :"bath_bridge",
+        "function"      :"bridge",
         "board"         :"STM32_Dongle",
-        "program"       :"",
+        "program"       :"rf_bridge",
+        "location"      :"socket down right out bathroom door",
         "commit"        :"",
         "devices"       :["nRF24"],
         "uc_uid"        :""
-    },
+        },
     "29":   {   "name"          :"Test_2_Dongle",
         "function"      :"",
         "board"         :"STM32_Dongle",
@@ -93,5 +105,5 @@
         "commit"        :"",
         "devices"       :["nRF24"],
         "uc_uid"        :""
-    }
+        }
 }

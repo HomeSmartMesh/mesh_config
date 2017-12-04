@@ -1,0 +1,10 @@
+{
+    "04/12/2017":{
+        "12":{  "name"  : "bathroom_repeater",
+            "board"     : "STM8S_v2"
+        },
+        "18":{  "name"  : "sleeping_room_repeater",
+            "board"     : "STM8S_v2"
+        }
+    }
+}

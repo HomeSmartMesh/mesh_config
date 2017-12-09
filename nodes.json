@@ -76,6 +76,7 @@
             },
     "26":   {   "name"          :"Sleeping Room Tag",
                 "function"      :"sensors",
+                "location"       :"Bedroom comode",
                 "board"         :"STM8L_v2",
                 "program"       :"pr03_PressHumTemp",
                 "commit"        :"f73aefd25f12840d60c15f40bae60de3b689dd99"
@@ -95,7 +96,7 @@
         "commit"        :"",
         "devices"       :["nRF24"],
         "uc_uid"        :""
-    },
+        },
     "29":   {   "name"          :"Test_2_Dongle",
         "function"      :"",
         "board"         :"STM32_Dongle",
@@ -103,5 +104,5 @@
         "commit"        :"",
         "devices"       :["nRF24"],
         "uc_uid"        :""
-    }
+        }
 }

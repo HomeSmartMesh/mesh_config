@@ -104,5 +104,11 @@
         "commit"        :"",
         "devices"       :["nRF24"],
         "uc_uid"        :""
-        }
+        },
+    "30":   {   "name"          :"TV Power Monitor",
+        "function"      :"",
+        "board"         :"Wemo_Switch",
+        "uc_uid"        :"",
+        "data"          : ["power"]
+    }
 }

@@ -110,5 +110,22 @@
         "board"         :"Wemo_Switch",
         "uc_uid"        :"",
         "data"          : ["power"]
+    },
+    "31":   {   "name"          :"Living room Milight Gateway",
+        "device"    :"Milight_Gateway",
+        "connection":{
+            "ip"        : "10.0.0.8",
+            "port"      : 8899
+        },
+        "actions":["milight"]
+    },
+    "32":   {   "name"          :"Living room Light",
+        "device"    :"Milight_Gateway",
+        "connection":{
+            "ip"        : "10.0.0.8",
+            "port"      : 8899,
+            "channel"   : 4
+        },
+        "actions":["brightness"]
     }
 }

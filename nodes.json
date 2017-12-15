@@ -70,8 +70,8 @@
             },
     "25":   {   "name"          :"Retro Light Upstairs",
                 "board"         :"STM32_RFPIO",
-                "program"       :"dimmer",
-                "commit"        :"?",
+                "program"       :"dimmer/smt32_rfpio_firmware",
+                "commit"        :"27b35e7050260297ec4854c1e06ee2a761fa5f05",
                 "uc_uid"        :"0x48 FF 76 06 51 87 50 49 21 10 12 87"
             },
     "26":   {   "name"          :"Sleeping Room Tag",

@@ -70,8 +70,8 @@
             },
     "25":   {   "name"          :"Retro Light Upstairs",
                 "board"         :"STM32_RFPIO",
-                "program"       :"dimmer",
-                "commit"        :"?",
+                "program"       :"dimmer/smt32_rfpio_firmware",
+                "commit"        :"27b35e7050260297ec4854c1e06ee2a761fa5f05",
                 "uc_uid"        :"0x48 FF 76 06 51 87 50 49 21 10 12 87"
             },
     "26":   {   "name"          :"Sleeping Room Tag",
@@ -110,5 +110,22 @@
         "board"         :"Wemo_Switch",
         "uc_uid"        :"",
         "data"          : ["power"]
+    },
+    "31":   {   "name"          :"Living room Milight Gateway",
+        "device"    :"Milight_Gateway",
+        "connection":{
+            "ip"        : "10.0.0.8",
+            "port"      : 8899
+        },
+        "actions":["milight"]
+    },
+    "32":   {   "name"          :"Living room Light",
+        "device"    :"Milight_Gateway",
+        "connection":{
+            "ip"        : "10.0.0.8",
+            "port"      : 8899,
+            "channel"   : 4
+        },
+        "actions":["brightness"]
     }
 }

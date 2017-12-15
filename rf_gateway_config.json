@@ -29,6 +29,7 @@
             "HeadTopic"     :"Actions/",
             "actions"   :["dimmer","hexRGB","RGB","MeshRF","RawRF"]
         },
+        "dongle_node_id":27,
         "disable"   :false
     }
 }

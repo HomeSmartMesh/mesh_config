@@ -66,6 +66,7 @@
                 "board"         :"STM32_Dongle",
                 "program"       :"rf_bridge",
                 "commit"        :"a259c2feee3b307b469c23e1cb17148e7a425843",
+                "devices"       :["nRF24"],                
                 "uc_uid"        :"0x51 FF 6B 06 49 66 55 50 50 51 16 67"
             },
     "25":   {   "name"          :"Retro Light Upstairs",
@@ -97,13 +98,13 @@
         "devices"       :["nRF24"],
         "uc_uid"        :""
         },
-    "29":   {   "name"          :"Test_2_Dongle",
+    "29":   {   "name"          :"Test_RGB_Dongle",
         "function"      :"",
         "board"         :"STM32_Dongle",
         "program"       :"",
         "commit"        :"",
         "devices"       :["nRF24"],
-        "uc_uid"        :""
+        "uc_uid"        :"0x48 FF 76 06 51 87 50 49 21 10 12 87"
         },
     "30":   {   "name"          :"TV Power Monitor",
         "function"      :"",

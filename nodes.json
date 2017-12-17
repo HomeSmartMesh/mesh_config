@@ -57,8 +57,8 @@
     "23":   {   "name"          :"Bathroom Repeater",
                 "board"         :"STM32_Dongle",
                 "function"      :"repeater",
-                "program"       :"rf_uart_interface",
-                "devices"       :["APDS9960","nRF24"],
+                "program"       :"rf_bridge",
+                "devices"       :["APDS9960","nRF24","WS2812B"],
                 "uc_uid"        :"0x57 FF 6A 06 49 84 52 50 40 57 06 87"
             },
     "24":   {   "name"          :"Stairs Repeater",
@@ -111,7 +111,7 @@
         "board"         :"Wemo_Switch",
         "uc_uid"        :"",
         "data"          : ["power"]
-    },
+        },
     "31":   {   "name"          :"Living room Milight Gateway",
         "device"    :"Milight_Gateway",
         "connection":{
@@ -119,7 +119,7 @@
             "port"      : 8899
         },
         "actions":["milight"]
-    },
+        },
     "32":   {   "name"          :"Living room Light",
         "device"    :"Milight_Gateway",
         "connection":{
@@ -128,5 +128,5 @@
             "channel"   : 4
         },
         "actions":["brightness"]
-    }
+        }
 }

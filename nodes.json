@@ -72,7 +72,7 @@
     "25":   {   "name"          :"Retro Light Upstairs",
                 "board"         :"STM32_RFPIO",
                 "program"       :"dimmer/smt32_rfpio_firmware",
-                "commit"        :"27b35e7050260297ec4854c1e06ee2a761fa5f05",
+                "commit"        :"1d050d77c491691029825c5a8753d43c0a5e6a8a",
                 "uc_uid"        :"0x48 FF 76 06 51 87 50 49 21 10 12 87"
             },
     "26":   {   "name"          :"Sleeping Room Tag",
@@ -112,21 +112,28 @@
         "uc_uid"        :"",
         "data"          : ["power"]
         },
-    "31":   {   "name"          :"Living room Milight Gateway",
-        "device"    :"Milight_Gateway",
-        "connection":{
-            "ip"        : "10.0.0.8",
-            "port"      : 8899
-        },
-        "actions":["milight"]
-        },
+    "31":   {   "name"          :"Malms Light",
+        "actions"   :["dimmer"],
+        "gateway"    :"Milight"
+    },
     "32":   {   "name"          :"Living room Light",
-        "device"    :"Milight_Gateway",
-        "connection":{
-            "ip"        : "10.0.0.8",
-            "port"      : 8899,
-            "channel"   : 4
+        "actions"   :["dimmer"],
+        "gateway"    :"Milight"
+    },
+    "33":   {   "name"          :"Entrance Light",
+        "actions"   :["dimmer"],
+        "gateway"    :"Milight"
+    },
+    "34":   {   "name"          :"Sleeping room Light",
+        "actions"   :["dimmer"],
+        "gateway"    :"Milight"
+    },
+    "35":   {   "name"          :"Stairs Light",
+        "actions"   :["dimmer"],
+        "gateway"    :"Milight"
         },
-        "actions":["brightness"]
-        }
+    "36":   {   "name"          :"Upstair Shelves Light",
+        "actions"   :["dimmer"],
+        "gateway"    :"Milight"
+    }
 }

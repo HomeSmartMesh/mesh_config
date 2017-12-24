@@ -106,7 +106,7 @@
         "devices"       :["nRF24"],
         "uc_uid"        :"0x48 FF 76 06 51 87 50 49 21 10 12 87"
         },
-    "30":   {   "name"          :"TV Power Monitor",
+    "30":   {   "name"          :"TV Set Power",
         "function"      :"",
         "board"         :"Wemo_Switch",
         "uc_uid"        :"",
@@ -115,19 +115,19 @@
     "31":   {   "name"          :"Malms Light",
         "actions"   :["dimmer"],
         "gateway"    :"Milight"
-    },
+        },
     "32":   {   "name"          :"Living room Light",
         "actions"   :["dimmer"],
         "gateway"    :"Milight"
-    },
+        },
     "33":   {   "name"          :"Entrance Light",
         "actions"   :["dimmer"],
         "gateway"    :"Milight"
-    },
+        },
     "34":   {   "name"          :"Sleeping room Light",
         "actions"   :["dimmer"],
         "gateway"    :"Milight"
-    },
+        },
     "35":   {   "name"          :"Stairs Light",
         "actions"   :["dimmer"],
         "gateway"    :"Milight"
@@ -135,5 +135,9 @@
     "36":   {   "name"          :"Upstair Shelves Light",
         "actions"   :["dimmer"],
         "gateway"    :"Milight"
-    }
+        },
+    "37":   {   "name"          :"Bathroom Power",
+                "data"   :["power"],
+                "gateway"    :"Wemo"
+            }
 }

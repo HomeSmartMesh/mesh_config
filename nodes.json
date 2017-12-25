@@ -90,7 +90,7 @@
                 "devices"       :["nRF24_pa_lna"],
                 "uc_uid"        :"0x39 00 68 06 31 42 30 38 53 35 03 43"
             },
-    "28":   {   "name"          :"Sleeping room Repeater",
+    "28":   {   "name"          :"Test RGB dongle",
         "function"      :"repeater",
         "board"         :"STM32_Dongle",
         "program"       :"rf_bridge",
@@ -98,7 +98,7 @@
         "devices"       :["nRF24"],
         "uc_uid"        :""
         },
-    "29":   {   "name"          :"Test_RGB_Dongle",
+    "29":   {   "name"          :"Sleeping room Repeater",
         "function"      :"",
         "board"         :"STM32_Dongle",
         "program"       :"",

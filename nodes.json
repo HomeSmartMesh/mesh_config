@@ -61,7 +61,7 @@
                 "devices"       :["APDS9960","nRF24","WS2812B"],
                 "uc_uid"        :"0x57 FF 6A 06 49 84 52 50 40 57 06 87"
             },
-    "24":   {   "name"          :"Stairs Repeater",
+    "24":   {   "name"          :"Tester RGB dongle",
                 "function"      :"repeater",
                 "board"         :"STM32_Dongle",
                 "program"       :"rf_bridge",
@@ -82,7 +82,7 @@
                 "program"       :"pr03_PressHumTemp",
                 "commit"        :"f73aefd25f12840d60c15f40bae60de3b689dd99"
             },
-    "27":   {   "name"          :"Test_Sniffer_Dongle",
+    "27":   {   "name"          :"Living room repeater",
                 "function"      :"sniffer",
                 "board"         :"STM32_Dongle",
                 "program"       :"rf_sniffer",
@@ -90,7 +90,7 @@
                 "devices"       :["nRF24_pa_lna"],
                 "uc_uid"        :"0x39 00 68 06 31 42 30 38 53 35 03 43"
             },
-    "28":   {   "name"          :"Test RGB dongle",
+    "28":   {   "name"          :"Test Proximity dongle",
         "function"      :"repeater",
         "board"         :"STM32_Dongle",
         "program"       :"rf_bridge",
